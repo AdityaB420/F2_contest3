@@ -67,6 +67,9 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
