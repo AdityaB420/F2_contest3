@@ -12,17 +12,21 @@ body {
     padding: 20px;
     border-radius: 50px;
     border-style:groove;
+    transition: transform .5s ease;
+    transform: scale(1);
     
     
+    
+}
+.card:hover{
+    transform: scale(1.1);
 }
 
 .card-img {
     width: 30vw;
     border: 2px solid black;
     border-radius: 15vw;
-}
-.card-img:hover{
-    transition: transform 1s ease-out;
+    overflow: hidden;
 }
 
 a {
@@ -63,6 +67,7 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container {
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;

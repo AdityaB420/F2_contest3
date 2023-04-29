@@ -17,8 +17,7 @@ fetch('https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.js
               <h2>${data[i].id}</h3>
               <h3>${data[i].name}</h4>
               <h3> Price: ${data[i].price}</h4>
-              
-               <!-- <a href="#" onclick="takeOrder(${data[i].id},'${data[i].imgSrc}','${data[i].name}',${data[i].price})" >order</a>-->
+              <a href="#" onclick="takeOrder(${data[i].id},'${data[i].imgSrc}','${data[i].name}',${data[i].price})"> Order now</a>
           </div>
       </div>`;
             container.innerHTML += divBody;
